@@ -1,0 +1,20 @@
+@media only screen
+  and (min-device-width: 901px)
+  and (max-device-width: 1074px)  { 
+  article{
+	font-size:2em;
+}
+}
+@media only screen 
+  and (min-device-width: 501px)
+  and (max-device-width: 900px)  { 
+  article{
+	font-size:4em;
+}
+}
+@media only screen
+  and (max-device-width: 500px)  { 
+  article {
+	font-size:6em;
+}
+}

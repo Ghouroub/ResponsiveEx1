@@ -1,0 +1,15 @@
+body {
+	overflow: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+@media only screen and (max-device-width: 500px) {
+	article img {
+		height: calc(100px);
+	}
+	.fix {
+		position: fixed;
+		bottom: 0px;
+		left: 45%;
+	}
+}

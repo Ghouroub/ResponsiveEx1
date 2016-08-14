@@ -1,0 +1,21 @@
+@media only screen 
+  and (min-device-width: 300px) 
+  and (orientation: portrait) { 
+img {
+   display:block;
+
+}
+}
+@media only screen 
+  and (device-aspect-ratio:4/3){
+   .text {
+   display:block;
+   }
+}
+@media only screen 
+ {
+video{
+display:block;
+}
+}
+
